@@ -4,4 +4,6 @@ def contar(pal):
     for letra in vogais:
         count += pal.count(letra)
     return count
-print(contar("banana"))
+while True:
+    palavra = input("Digite uma palavra: ")
+    print(contar(palavra))
