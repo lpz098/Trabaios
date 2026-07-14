@@ -15,4 +15,4 @@ def maximumWealth( accounts: List[List[int]]) -> int:
 
         return maior
     
-print(maximumWealth([[1,2,3],[3,2,1]]))  # Output: 6
+#print(maximumWealth([[1,2,3],[3,2,1]]))  # Output: 6
